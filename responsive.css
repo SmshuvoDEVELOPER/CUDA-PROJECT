@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 1024px){
+
+    .mobile-menu span{
+        display: block;
+    }
+    
+    .row {
+        margin: 0 3rem;
+    }
+
+    .hero-text-box {
+        height: 5rem;
+        
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 60%; 
+    }
+
+    .service-section {
+        height: 110%;
+    }
+
+
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client-review {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+.contact-section form {
+    
+    width: 100%;
+    margin: auto;
+    float: none;
+    }
+
+}
+
+@media screen and (max-width: 980px){ 
+    .span_1_of_4 {
+        width: 46.2%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 425px) {
+    .span_1_of_4 {
+        width: 100%;
+        text-align: center;
+    }
+
+ 
+  
+}
